@@ -35,6 +35,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<objectStoreV2>true</objectStoreV2>
 						<applicationName>newoascode</applicationName>
+						<businessGroupId>5ca888dd-5e46-4380-bd1a-4d07a8c70a81</businessGroupId>
 						<connectedAppClientId>ea4430cf61244a3482a3e785365df904</connectedAppClientId>
 					 	<connectedAppClientSecret>876A77644830404cb859EA3383450E14</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
