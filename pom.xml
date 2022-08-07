@@ -35,9 +35,9 @@
 						<muleVersion>4.4.0</muleVersion>
 						<objectStoreV2>true</objectStoreV2>
 						<applicationName>newoascode</applicationName>
+						<connectedAppClientId>ea4430cf61244a3482a3e785365df904</connectedAppClientId>
+					 	<connectedAppClientSecret>876A77644830404cb859EA3383450E14</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<connectedAppClientId>e853526a36f64c0680d119da5f5ec61e</connectedAppClientId>
-						<connectedAppClientSecret>94dA7A35AA4d4F2190244203E414fF20</connectedAppClientSecret>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
