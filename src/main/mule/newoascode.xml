@@ -4,7 +4,6 @@
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
     <apikit:config name="newoascode-config" api="resource::5ca888dd-5e46-4380-bd1a-4d07a8c70a81:newoascode:1.0.0:oas:zip:newoascode.yaml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
-	<configuration-properties doc:name="Configuration properties" doc:id="6fd7d76f-0781-4571-9735-87322ea2a79e" file="properties/${env}.yaml" />
 	<flow name="newoascode-main">
         <http:listener config-ref="newoascode-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">

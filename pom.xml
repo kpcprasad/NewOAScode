@@ -29,12 +29,12 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<environment>${env}</environment>
+						<environment>dev</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<muleVersion>4.4.0</muleVersion>
 						<objectStoreV2>true</objectStoreV2>
-						<applicationName>newoascode${env}</applicationName>
+						<applicationName>newoascode</applicationName>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<connectedAppClientId>e853526a36f64c0680d119da5f5ec61e</connectedAppClientId>
 						<connectedAppClientSecret>94dA7A35AA4d4F2190244203E414fF20</connectedAppClientSecret>
