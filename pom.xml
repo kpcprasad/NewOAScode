@@ -101,7 +101,7 @@
 	
 	<distributionManagement>
     	<repository>
-      		<id>Repository</id>
+      		<id>MuleExchangeRepository</id>
       		<name>Repository</name>
       		<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/5ca888dd-5e46-4380-bd1a-4d07a8c70a81/maven</url>
       		<layout>default</layout>
