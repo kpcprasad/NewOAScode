@@ -60,7 +60,7 @@
 		<dependency>
 			<groupId>5ca888dd-5e46-4380-bd1a-4d07a8c70a81</groupId>
 			<artifactId>newoascode</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 			<classifier>oas</classifier>
 			<type>zip</type>
 		</dependency>

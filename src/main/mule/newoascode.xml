@@ -3,7 +3,7 @@
     <http:listener-config name="newoascode-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="8081" />
     </http:listener-config>
-    <apikit:config name="newoascode-config" api="resource::5ca888dd-5e46-4380-bd1a-4d07a8c70a81:newoascode:1.0.0:oas:zip:newoascode.yaml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
+    <apikit:config name="newoascode-config" api="resource::5ca888dd-5e46-4380-bd1a-4d07a8c70a81:newoascode:1.0.1:oas:zip:newoascode.yaml" outboundHeadersMapName="outboundHeaders" httpStatusVarName="httpStatus" />
 	<flow name="newoascode-main">
         <http:listener config-ref="newoascode-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
