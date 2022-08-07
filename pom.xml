@@ -36,10 +36,9 @@
 						<objectStoreV2>true</objectStoreV2>
 						<applicationName>newoascode</applicationName>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						<!-- <connectedAppClientId>217abca5dd3b41028cfebdd94c0b948e</connectedAppClientId>
-						<connectedAppClientSecret>0a87e09D70D44Bc7AD533DE0d01B5CBB</connectedAppClientSecret> -->
-						<connectedAppClientId>e853526a36f64c0680d119da5f5ec61e</connectedAppClientId>
-						<connectedAppClientSecret>94dA7A35AA4d4F2190244203E414fF20</connectedAppClientSecret>
+						<!-- <connectedAppClientId>e853526a36f64c0680d119da5f5ec61e</connectedAppClientId>
+						<connectedAppClientSecret>94dA7A35AA4d4F2190244203E414fF20</connectedAppClientSecret> -->
+						<authToken>c9ce7580-89ff-44b3-87dc-e0e760565de0</authToken>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
@@ -104,7 +103,7 @@
 	<distributionManagement>
     	<repository>
       		<id>Repository</id>
-      		<name>Corporate Repository</name>
+      		<name>Repository</name>
       		<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/5ca888dd-5e46-4380-bd1a-4d07a8c70a81/maven</url>
       		<layout>default</layout>
     	</repository>
