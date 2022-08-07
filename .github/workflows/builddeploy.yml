@@ -70,7 +70,7 @@ jobs:
         name: artifacts
     
     - name: Deploy to Sandbox
-    env:
+      env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
       run: |
